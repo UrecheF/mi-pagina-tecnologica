@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mac&Mac Store</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #000;
+            color: #FFD700;
+            margin: 0;
+            padding: 0;
+        }
+        header, footer {
+            background-color: #333;
+            text-align: center;
+            padding: 1em 0;
+        }
+        header h1, footer p {
+            margin: 0;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #444;
+            padding: 1em 0;
+        }
+        nav a {
+            color: #FFD700;
+            margin: 0 1em;
+            text-decoration: none;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        section {
+            padding: 2em;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .section-title {
+            margin-bottom: 1em;
+        }
+        .product-list, .blog-list, .accessories-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 2em;
+        }
+        .product-item, .blog-item, .accessory-item {
+            background-color: #222;
+            padding: 1em;
+            border-radius: 8px;
+            width: calc(33% - 2em);
+        }
+        .product-item h3, .blog-item h3, .accessory-item h3 {
+            margin-top: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Mac&Mac Store</h1>
+    </header>
+    <nav>
+        <a href="#productos">Productos</a>
+        <a href="#blog">Blog</a>
+        <a href="#accesorios">Accesorios</a>
+        <a href="#servicios">Servicios Técnicos</a>
+        <a href="#contacto">Contacto</a>
+    </nav>
+    <section id="productos" class="container">
+        <h2 class="section-title">Productos</h2>
+        <div class="product-list">
+            <div class="product-item">
+                <h3>iPhone</h3>
+                <p>Los últimos modelos de iPhone disponibles.</p>
+            </div>
+            <div class="product-item">
+                <h3>Samsung</h3>
+                <p>Variedad de modelos de Samsung.</p>
+            </div>
+            <div class="product-item">
+                <h3>Xiaomi</h3>
+                <p>Teléfonos innovadores de Xiaomi.</p>
+            </div>
+            <!-- Puedes agregar más productos aquí -->
+        </div>
+    </section>
+    <section id="blog" class="container">
+        <h2 class="section-title">Blog Tecnológico</h2>
+        <div class="blog-list">
+            <div class="blog-item">
+                <h3>Últimas Tendencias en Tecnología</h3>
+                <p>Explora las novedades más recientes del mundo tecnológico.</p>
+            </div>
+            <div class="blog-item">
+                <h3>Comparativa de Smartphones</h3>
+                <p>Análisis detallado de los modelos más populares.</p>
+            </div>
+            <!-- Puedes agregar más entradas de blog aquí -->
+        </div>
+    </section>
+    <section id="accesorios" class="container">
+        <h2 class="section-title">Accesorios</h2>
+        <div class="accessories-list">
+            <div class="accessory-item">
+                <h3>Cargadores</h3>
+                <p>Cargadores rápidos y seguros para todo tipo de dispositivos.</p>
+            </div>
+            <div class="accessory-item">
+                <h3>Cables</h3>
+                <p>Cables de alta calidad para tus dispositivos.</p>
+            </div>
+            <div class="accessory-item">
+                <h3>Estuches</h3>
+                <p>Estuches protectores y estilosos para tu teléfono.</p>
+            </div>
+            <!-- Puedes agregar más accesorios aquí -->
+        </div>
+    </section>
+    <section id="servicios" class="container">
+        <h2 class="section-title">Servicios Técnicos</h2>
+        <p>Somos especialistas en servicio técnico y reparación de teléfonos celulares. Ofrecemos soluciones rápidas y efectivas para cualquier problema técnico que tengas con tu dispositivo.</p>
+    </section>
+    <section id="contacto" class="container">
+        <h2 class="section-title">Contacto</h2>
+        <p>Para más información o consultas, por favor contáctanos en:</p>
+        <p>Email: info@macandmacstore.com</p>
+        <p>Teléfono: +34 123 456 789</p>
+    </section>
+    <footer>
+        <p>&copy; 2024 Mac&Mac Store. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
